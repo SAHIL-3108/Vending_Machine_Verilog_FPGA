@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vending_design_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vending_design_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="30.000000001 ms"></ZoomEndTime>
+      <Cursor1Time time="21.300000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/vending_design_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/coin" type="logic">
+      <obj_property name="ElementShortName">coin</obj_property>
+      <obj_property name="ObjectShortName">coin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/select" type="array">
+      <obj_property name="ElementShortName">select[1:0]</obj_property>
+      <obj_property name="ObjectShortName">select[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/item_dispense" type="logic">
+      <obj_property name="ElementShortName">item_dispense</obj_property>
+      <obj_property name="ObjectShortName">item_dispense</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/refund" type="logic">
+      <obj_property name="ElementShortName">refund</obj_property>
+      <obj_property name="ObjectShortName">refund</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/expected_dispense" type="logic">
+      <obj_property name="ElementShortName">expected_dispense</obj_property>
+      <obj_property name="ObjectShortName">expected_dispense</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/expected_refund" type="logic">
+      <obj_property name="ElementShortName">expected_refund</obj_property>
+      <obj_property name="ObjectShortName">expected_refund</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/coin" type="logic">
+      <obj_property name="ElementShortName">coin</obj_property>
+      <obj_property name="ObjectShortName">coin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/select" type="array">
+      <obj_property name="ElementShortName">select[1:0]</obj_property>
+      <obj_property name="ObjectShortName">select[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/item_dispense" type="logic">
+      <obj_property name="ElementShortName">item_dispense</obj_property>
+      <obj_property name="ObjectShortName">item_dispense</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/refund" type="logic">
+      <obj_property name="ElementShortName">refund</obj_property>
+      <obj_property name="ObjectShortName">refund</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/balance" type="array">
+      <obj_property name="ElementShortName">balance[7:0]</obj_property>
+      <obj_property name="ObjectShortName">balance[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/PRICE_A" type="array">
+      <obj_property name="ElementShortName">PRICE_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRICE_A[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/PRICE_B" type="array">
+      <obj_property name="ElementShortName">PRICE_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRICE_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/PRICE_C" type="array">
+      <obj_property name="ElementShortName">PRICE_C[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRICE_C[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/PRICE_D" type="array">
+      <obj_property name="ElementShortName">PRICE_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PRICE_D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/CHECK_BALANCE" type="array">
+      <obj_property name="ElementShortName">CHECK_BALANCE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CHECK_BALANCE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/DISPENSE" type="array">
+      <obj_property name="ElementShortName">DISPENSE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DISPENSE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_design_tb/uut/REFUND" type="array">
+      <obj_property name="ElementShortName">REFUND[1:0]</obj_property>
+      <obj_property name="ObjectShortName">REFUND[1:0]</obj_property>
+   </wvobject>
+</wave_config>
