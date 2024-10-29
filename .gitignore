@@ -39,3 +39,16 @@ vending_design_tb.vcd
 *.pdf
 *.docx
 
+# Navigate to your repository directory
+cd path/to/your/repository
+
+# Add files to the staging area
+git add vending_design_tb_behav.wcfg .gitignore
+
+# Commit with a summary and extended description
+git commit -m "Add vending_design_tb_behav.wcfg via upload" -m "This file is added to configure waveform viewing for the behavioral simulation of the vending machine design. It allows for easier analysis of signal behavior during the testbench execution."
+
+git push origin main  # or the appropriate branch you're working on
+
+This commit includes the addition of the `vending_design_tb_behav.wcfg` file, which configures the waveform view for the behavioral simulation testbench of the vending machine design project. By setting up custom waveform settings, this file enables more efficient signal analysis and debugging during simulation. 
+
